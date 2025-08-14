@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Embrista - Trendy
+  </title>
+  <!-- Suggested Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF69B4', // Hot pink for youthful vibe
+                        secondary: '#00BFFF', // Vibrant blue
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+  </script>
+ </head>
+ <body class="bg-white font-sans relative">
+  <!-- Watermark -->
+  <div class="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+   <p class="text-9xl opacity-5 text-primary font-bold transform -rotate-45">
+    Embrista
+   </p>
+  </div>
+  <!-- HERO SECTION - Trendy: Vibrant colors, playful layout with bold headline to attract young audience -->
+  <header class="relative h-screen bg-cover bg-center z-10" style="background-image: url('https://picsum.photos/1920/1080?random=1');">
+   <div class="absolute inset-0 bg-gradient-to-r from-primary/50 to-secondary/50">
+   </div>
+   <div class="relative container mx-auto px-4 h-full flex flex-col justify-center items-start text-white">
+    <img alt="Embrista Logo" class="mb-4" src="https://via.placeholder.com/200x50?text=Embrista"/>
+    <h1 class="text-5xl md:text-7xl font-bold mb-4 animate-bounce">
+     Embrista Tees for You!
+    </h1>
+    <p class="text-xl md:text-2xl mb-6">
+     Discover vibrant styles that match your energy.
+    </p>
+    <button class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-secondary hover:text-white transition">
+     Shop Now
+    </button>
+   </div>
+  </header>
+  <!-- FEATURED PRODUCTS - Trendy: Colorful cards with playful hover effects -->
+  <section class="container mx-auto px-4 py-16 z-10 relative">
+   <h2 class="text-4xl font-bold text-center mb-12 text-primary">
+    Featured Products
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform">
+     <img alt="Graphic Tee" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=2"/>
+     <div class="p-4">
+      <h3 class="text-xl font-semibold mb-2">
+       Graphic Tee
+      </h3>
+      <p class="text-lg font-bold text-secondary">
+       $20
+      </p>
+      <button class="bg-primary text-white px-4 py-2 rounded mt-2 w-full hover:bg-secondary transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform">
+     <img alt="Plain Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=3"/>
+     <div class="p-4">
+      <h3 class="text-xl font-semibold mb-2">
+       Plain Shirt
+      </h3>
+      <p class="text-lg font-bold text-secondary">
+       $25
+      </p>
+      <button class="bg-primary text-white px-4 py-2 rounded mt-2 w-full hover:bg-secondary transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform">
+     <img alt="Polo Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=4"/>
+     <div class="p-4">
+      <h3 class="text-xl font-semibold mb-2">
+       Polo Shirt
+      </h3>
+      <p class="text-lg font-bold text-secondary">
+       $30
+      </p>
+      <button class="bg-primary text-white px-4 py-2 rounded mt-2 w-full hover:bg-secondary transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- ABOUT SECTION - Trendy: Fun and engaging text with vibrant accents -->
+  <section class="bg-secondary/10 py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold mb-8 text-primary">
+     About Embrista
+    </h2>
+    <p class="text-lg max-w-2xl mx-auto">
+     Embrista is all about bringing fun and color into your wardrobe with high-quality t-shirts and shirts. Founded in 2020, we focus on youthful designs that let you express yourself. Join the Embrista revolution!
+    </p>
+   </div>
+  </section>
+  <!-- SPECIAL OFFER SECTION - Trendy: Bright banner with playful CTA -->
+  <section class="bg-primary text-white py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold mb-4">
+     Special Offer!
+    </h2>
+    <p class="text-xl mb-6">
+     Get 20% off on all Embrista tees – limited time only!
+    </p>
+    <button class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-secondary hover:text-white transition">
+     Claim Now
+    </button>
+   </div>
+  </section>
+  <!-- FOOTER - Trendy: Vibrant links and icons -->
+  <footer class="bg-secondary text-white py-8 z-10 relative">
+   <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    <nav class="mb-4 md:mb-0">
+     <a class="mx-2 hover:underline" href="#">
+      Home
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      Shop
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      About
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      Contact
+     </a>
+    </nav>
+    <div class="flex space-x-4 mb-4 md:mb-0">
+     <a aria-label="Facebook" href="#">
+      <img alt="Facebook" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Instagram" href="#">
+      <img alt="Instagram" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Twitter" href="#">
+      <img alt="Twitter" src="https://via.placeholder.com/24"/>
+     </a>
+    </div>
+    <p>
+     © 2025 Embrista. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

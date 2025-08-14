@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Elegant Landing Page
+  </title>
+  <!-- Suggested Google Font: Playfair Display -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#F5F5F5', // Soft beige
+                        secondary: '#808080', // Muted gray
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+  </script>
+ </head>
+ <body class="bg-primary font-serif">
+  <!-- HERO SECTION - Elegant: Refined spacing, muted tones for premium feel -->
+  <header class="relative h-screen bg-cover bg-center" style="background-image: url('https://picsum.photos/1920/1080?random=5');">
+   <div class="absolute inset-0 bg-black/30">
+   </div>
+   <div class="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-white text-center">
+    <h1 class="text-5xl md:text-7xl font-bold mb-4">
+     Elegant Apparel
+    </h1>
+    <p class="text-xl md:text-2xl mb-6 max-w-xl">
+     Timeless pieces crafted with sophistication and grace.
+    </p>
+    <button class="border border-white px-8 py-3 font-semibold hover:bg-white hover:text-secondary transition">
+     Explore Collection
+    </button>
+   </div>
+  </header>
+  <!-- FEATURED PRODUCTS - Elegant: Subtle cards with ample whitespace -->
+  <section class="container mx-auto px-4 py-16">
+   <h2 class="text-4xl font-bold text-center mb-12 text-secondary">
+    Featured Products
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div class="bg-white rounded-sm overflow-hidden">
+     <img alt="Graphic Tee" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=6"/>
+     <div class="p-6 text-center">
+      <h3 class="text-xl font-semibold mb-2">
+       Graphic Tee
+      </h3>
+      <p class="text-lg font-bold text-secondary">
+       $20
+      </p>
+      <button class="border border-secondary text-secondary px-4 py-2 mt-2 w-full hover:bg-secondary hover:text-white transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-white rounded-sm overflow-hidden">
+     <img alt="Plain Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=7"/>
+     <div class="p-6 text-center">
+      <h3 class="text-xl font-semibold mb-2">
+       Plain Shirt
+      </h3>
+      <p class="text-lg font-bold text-secondary">
+       $25
+      </p>
+      <button class="border border-secondary text-secondary px-4 py-2 mt-2 w-full hover:bg-secondary hover:text-white transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-white rounded-sm overflow-hidden">
+     <img alt="Polo Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=8"/>
+     <div class="p-6 text-center">
+      <h3 class="text-xl font-semibold mb-2">
+       Polo Shirt
+      </h3>
+      <p class="text-lg font-bold text-secondary">
+       $30
+      </p>
+      <button class="border border-secondary text-secondary px-4 py-2 mt-2 w-full hover:bg-secondary hover:text-white transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- ABOUT SECTION - Elegant: Serene text with centered alignment -->
+  <section class="bg-white py-16">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold mb-8 text-secondary">
+     Our Story
+    </h2>
+    <p class="text-lg max-w-2xl mx-auto">
+     We specialize in elegant t-shirts and shirts that embody refinement and quality. Established in 2020, our mission is to provide apparel that elevates everyday style with timeless elegance. Experience the difference.
+    </p>
+   </div>
+  </section>
+  <!-- SPECIAL OFFER SECTION - Elegant: Subtle promotion with refined CTA -->
+  <section class="bg-secondary/10 text-secondary py-16">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold mb-4">
+     Exclusive Offer
+    </h2>
+    <p class="text-xl mb-6">
+     Enjoy 15% off on our premium collection – for a limited period.
+    </p>
+    <button class="border border-secondary px-8 py-3 font-semibold hover:bg-secondary hover:text-white transition">
+     Redeem Offer
+    </button>
+   </div>
+  </section>
+  <!-- FOOTER - Elegant: Minimalist links in muted tones -->
+  <footer class="bg-primary text-secondary py-8">
+   <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    <nav class="mb-4 md:mb-0">
+     <a class="mx-2 hover:underline" href="#">
+      Home
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      Shop
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      About
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      Contact
+     </a>
+    </nav>
+    <div class="flex space-x-4 mb-4 md:mb-0">
+     <a aria-label="Facebook" href="#">
+      <img alt="Facebook" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Instagram" href="#">
+      <img alt="Instagram" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Twitter" href="#">
+      <img alt="Twitter" src="https://via.placeholder.com/24"/>
+     </a>
+    </div>
+    <p>
+     © 2025 Elegant Apparel. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

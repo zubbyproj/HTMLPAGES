@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Embrista - Minimalistic
+  </title>
+  <!-- Suggested Google Font: Helvetica or default sans-serif, but using Roboto for clean look -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FFFFFF',
+                        secondary: '#000000',
+                    },
+                    fontFamily: {
+                        sans: ['Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+  </script>
+ </head>
+ <body class="bg-primary font-sans text-secondary relative">
+  <!-- Watermark -->
+  <div class="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+   <p class="text-9xl opacity-5 text-secondary font-bold transform -rotate-45">
+    Embrista
+   </p>
+  </div>
+  <!-- HERO SECTION - Minimalistic: Ample whitespace, focus on essentials -->
+  <header class="h-screen flex items-center justify-center bg-cover bg-center z-10" style="background-image: url('https://picsum.photos/1920/1080?random=21');">
+   <div class="text-center px-4">
+    <img alt="Embrista Logo" class="mb-4 mx-auto" src="https://via.placeholder.com/200x50?text=Embrista"/>
+    <h1 class="text-4xl md:text-6xl font-light mb-4">
+     Embrista Style
+    </h1>
+    <p class="text-lg md:text-xl mb-6">
+     Quality tees without the fuss.
+    </p>
+    <button class="border border-secondary px-6 py-2 hover:bg-secondary hover:text-primary transition">
+     Shop
+    </button>
+   </div>
+  </header>
+  <!-- FEATURED PRODUCTS - Minimalistic: Clean cards with focus on photography -->
+  <section class="container mx-auto px-4 py-24 z-10 relative">
+   <h2 class="text-3xl font-light text-center mb-16">
+    Products
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+    <div>
+     <img alt="Graphic Tee" class="w-full h-80 object-cover mb-4" src="https://picsum.photos/300/400?random=22"/>
+     <h3 class="text-lg font-light">
+      Graphic Tee
+     </h3>
+     <p class="text-md">
+      $20
+     </p>
+     <button class="border border-secondary px-4 py-1 mt-2 w-full hover:bg-secondary hover:text-primary transition">
+      Buy
+     </button>
+    </div>
+    <div>
+     <img alt="Plain Shirt" class="w-full h-80 object-cover mb-4" src="https://picsum.photos/300/400?random=23"/>
+     <h3 class="text-lg font-light">
+      Plain Shirt
+     </h3>
+     <p class="text-md">
+      $25
+     </p>
+     <button class="border border-secondary px-4 py-1 mt-2 w-full hover:bg-secondary hover:text-primary transition">
+      Buy
+     </button>
+    </div>
+    <div>
+     <img alt="Polo Shirt" class="w-full h-80 object-cover mb-4" src="https://picsum.photos/300/400?random=24"/>
+     <h3 class="text-lg font-light">
+      Polo Shirt
+     </h3>
+     <p class="text-md">
+      $30
+     </p>
+     <button class="border border-secondary px-4 py-1 mt-2 w-full hover:bg-secondary hover:text-primary transition">
+      Buy
+     </button>
+    </div>
+   </div>
+  </section>
+  <!-- ABOUT SECTION - Minimalistic: Brief text with space -->
+  <section class="py-24 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-light mb-8">
+     About Embrista
+    </h2>
+    <p class="text-md max-w-xl mx-auto">
+     Embrista offers minimalistic t-shirts and shirts focused on comfort and quality. Started in 2020, our designs strip away the unnecessary.
+    </p>
+   </div>
+  </section>
+  <!-- SPECIAL OFFER SECTION - Minimalistic: Simple banner -->
+  <section class="bg-secondary text-primary py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-light mb-4">
+     Offer
+    </h2>
+    <p class="text-lg mb-6">
+     20% off all items.
+    </p>
+    <button class="border border-primary px-6 py-2 hover:bg-primary hover:text-secondary transition">
+     Claim
+    </button>
+   </div>
+  </section>
+  <!-- FOOTER - Minimalistic: Bare essentials -->
+  <footer class="py-8 text-center z-10 relative">
+   <nav class="mb-4">
+    <a class="mx-2 hover:underline" href="#">
+     Home
+    </a>
+    <a class="mx-2 hover:underline" href="#">
+     Shop
+    </a>
+    <a class="mx-2 hover:underline" href="#">
+     About
+    </a>
+    <a class="mx-2 hover:underline" href="#">
+     Contact
+    </a>
+   </nav>
+   <div class="flex justify-center space-x-4 mb-4">
+    <a aria-label="Facebook" href="#">
+     <img alt="Facebook" src="https://via.placeholder.com/24"/>
+    </a>
+    <a aria-label="Instagram" href="#">
+     <img alt="Instagram" src="https://via.placeholder.com/24"/>
+    </a>
+    <a aria-label="Twitter" href="#">
+     <img alt="Twitter" src="https://via.placeholder.com/24"/>
+    </a>
+   </div>
+   <p>
+    © 2025 Embrista. All rights reserved.
+   </p>
+  </footer>
+ </body>
+</html>

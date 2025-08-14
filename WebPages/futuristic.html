@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Embrista - Futuristic
+  </title>
+  <!-- Suggested Google Font: Orbitron -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00FFFF', // Neon cyan
+                        secondary: '#FF00FF', // Neon magenta
+                    },
+                    fontFamily: {
+                        display: ['Orbitron', 'sans-serif'],
+                    }
+                }
+            }
+        }
+  </script>
+ </head>
+ <body class="bg-black font-display text-primary relative">
+  <!-- Watermark -->
+  <div class="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+   <p class="text-9xl opacity-5 text-primary font-bold transform -rotate-45">
+    Embrista
+   </p>
+  </div>
+  <!-- HERO SECTION - Futuristic: Gradients, neon accents for tech feel -->
+  <header class="relative h-screen bg-cover bg-center z-10" style="background-image: url('https://picsum.photos/1920/1080?random=25');">
+   <div class="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-80">
+   </div>
+   <div class="relative container mx-auto px-4 h-full flex flex-col justify-center items-start">
+    <img alt="Embrista Logo" class="mb-4" src="https://via.placeholder.com/200x50?text=Embrista"/>
+    <h1 class="text-5xl md:text-7xl font-bold mb-4 text-shadow-lg">
+     Embrista Fashion
+    </h1>
+    <p class="text-xl md:text-2xl mb-6">
+     Tees from tomorrow.
+    </p>
+    <button class="bg-transparent border-2 border-primary px-8 py-3 font-semibold hover:bg-primary hover:text-black transition">
+     Enter Matrix
+    </button>
+   </div>
+  </header>
+  <!-- FEATURED PRODUCTS - Futuristic: Sleek cards with glow effects -->
+  <section class="container mx-auto px-4 py-16 z-10 relative">
+   <h2 class="text-4xl font-bold text-center mb-12 text-secondary">
+    Neo Products
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-[0_0_10px_#00FFFF] hover:shadow-[0_0_20px_#FF00FF] transition-shadow">
+     <img alt="Graphic Tee" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=26"/>
+     <div class="p-4 text-center">
+      <h3 class="text-xl font-bold mb-2">
+       Graphic Tee
+      </h3>
+      <p class="text-lg text-primary">
+       $20
+      </p>
+      <button class="bg-transparent border border-secondary px-4 py-2 mt-2 w-full hover:bg-secondary hover:text-black transition">
+       Acquire
+      </button>
+     </div>
+    </div>
+    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-[0_0_10px_#00FFFF] hover:shadow-[0_0_20px_#FF00FF] transition-shadow">
+     <img alt="Plain Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=27"/>
+     <div class="p-4 text-center">
+      <h3 class="text-xl font-bold mb-2">
+       Plain Shirt
+      </h3>
+      <p class="text-lg text-primary">
+       $25
+      </p>
+      <button class="bg-transparent border border-secondary px-4 py-2 mt-2 w-full hover:bg-secondary hover:text-black transition">
+       Acquire
+      </button>
+     </div>
+    </div>
+    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-[0_0_10px_#00FFFF] hover:shadow-[0_0_20px_#FF00FF] transition-shadow">
+     <img alt="Polo Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=28"/>
+     <div class="p-4 text-center">
+      <h3 class="text-xl font-bold mb-2">
+       Polo Shirt
+      </h3>
+      <p class="text-lg text-primary">
+       $30
+      </p>
+      <button class="bg-transparent border border-secondary px-4 py-2 mt-2 w-full hover:bg-secondary hover:text-black transition">
+       Acquire
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- ABOUT SECTION - Futuristic: Tech-inspired text -->
+  <section class="bg-gray-900 py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold mb-8 text-primary">
+     Embrista Code
+    </h2>
+    <p class="text-lg max-w-2xl mx-auto text-white">
+     Embrista engineers futuristic t-shirts and shirts using advanced materials. Launched in 2020, our vision is to blend tech with fashion. Upgrade your wardrobe.
+    </p>
+   </div>
+  </section>
+  <!-- SPECIAL OFFER SECTION - Futuristic: Neon promotion -->
+  <section class="bg-black text-secondary py-16 border-t border-primary z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold mb-4">
+     Quantum Deal
+    </h2>
+    <p class="text-xl mb-6">
+     50% off upgrades – limited qubits!
+    </p>
+    <button class="bg-transparent border-2 border-secondary px-8 py-3 font-semibold hover:bg-secondary hover:text-black transition">
+     Download
+    </button>
+   </div>
+  </section>
+  <!-- FOOTER - Futuristic: Glowing links -->
+  <footer class="bg-black py-8 z-10 relative">
+   <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-primary">
+    <nav class="mb-4 md:mb-0">
+     <a class="mx-2 hover:text-secondary transition" href="#">
+      Home
+     </a>
+     <a class="mx-2 hover:text-secondary transition" href="#">
+      Shop
+     </a>
+     <a class="mx-2 hover:text-secondary transition" href="#">
+      About
+     </a>
+     <a class="mx-2 hover:text-secondary transition" href="#">
+      Contact
+     </a>
+    </nav>
+    <div class="flex space-x-4 mb-4 md:mb-0">
+     <a aria-label="Facebook" href="#">
+      <img alt="Facebook" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Instagram" href="#">
+      <img alt="Instagram" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Twitter" href="#">
+      <img alt="Twitter" src="https://via.placeholder.com/24"/>
+     </a>
+    </div>
+    <p>
+     © 2025 Embrista. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

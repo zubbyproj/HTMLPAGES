@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Embrista - Dynamic
+  </title>
+  <!-- Suggested Google Font: Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E90FF', // Dynamic blue
+                        secondary: '#32CD32', // Energetic green
+                    },
+                    fontFamily: {
+                        sans: ['Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+  </script>
+ </head>
+ <body class="bg-white font-sans relative">
+  <!-- Watermark -->
+  <div class="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+   <p class="text-9xl opacity-5 text-primary font-bold transform -rotate-45">
+    Embrista
+   </p>
+  </div>
+  <!-- HERO SECTION - Dynamic: Animated elements for scrolling effects -->
+  <header class="relative h-screen bg-cover bg-center overflow-hidden z-10" style="background-image: url('https://picsum.photos/1920/1080?random=17');">
+   <div class="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent animate-pulse">
+   </div>
+   <div class="relative container mx-auto px-4 h-full flex flex-col justify-center items-start text-white">
+    <img alt="Embrista Logo" class="mb-4" src="https://via.placeholder.com/200x50?text=Embrista"/>
+    <h1 class="text-5xl md:text-7xl font-bold mb-4 animate-fade-in-down">
+     Move with Embrista!
+    </h1>
+    <p class="text-xl md:text-2xl mb-6 animate-fade-in-up">
+     Dynamic tees that keep up with you.
+    </p>
+    <button class="bg-secondary text-white px-8 py-3 font-semibold hover:scale-110 transition-transform">
+     Shop Dynamic
+    </button>
+   </div>
+  </header>
+  <!-- FEATURED PRODUCTS - Dynamic: Hover interactions and transitions -->
+  <section class="container mx-auto px-4 py-16 z-10 relative">
+   <h2 class="text-4xl font-bold text-center mb-12 text-primary">
+    Featured Dynamics
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:rotate-3">
+     <img alt="Graphic Tee" class="w-full h-64 object-cover transition-transform hover:scale-110" src="https://picsum.photos/300/400?random=18"/>
+     <div class="p-4">
+      <h3 class="text-xl font-semibold mb-2">
+       Graphic Tee
+      </h3>
+      <p class="text-lg font-bold text-secondary">
+       $20
+      </p>
+      <button class="bg-primary text-white px-4 py-2 rounded mt-2 w-full hover:bg-secondary transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:rotate-3">
+     <img alt="Plain Shirt" class="w-full h-64 object-cover transition-transform hover:scale-110" src="https://picsum.photos/300/400?random=19"/>
+     <div class="p-4">
+      <h3 class="text-xl font-semibold mb-2">
+       Plain Shirt
+      </h3>
+      <p class="text-lg font-bold text-secondary">
+       $25
+      </p>
+      <button class="bg-primary text-white px-4 py-2 rounded mt-2 w-full hover:bg-secondary transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:rotate-3">
+     <img alt="Polo Shirt" class="w-full h-64 object-cover transition-transform hover:scale-110" src="https://picsum.photos/300/400?random=20"/>
+     <div class="p-4">
+      <h3 class="text-xl font-semibold mb-2">
+       Polo Shirt
+      </h3>
+      <p class="text-lg font-bold text-secondary">
+       $30
+      </p>
+      <button class="bg-primary text-white px-4 py-2 rounded mt-2 w-full hover:bg-secondary transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- ABOUT SECTION - Dynamic: Text with fade-in animation classes -->
+  <section class="bg-primary/10 py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center animate-fade-in">
+    <h2 class="text-4xl font-bold mb-8 text-primary">
+     Embrista Drive
+    </h2>
+    <p class="text-lg max-w-2xl mx-auto">
+     Embrista designs dynamic t-shirts and shirts for active lifestyles. Founded in 2020, our brand is about movement and innovation in fashion. Stay ahead!
+    </p>
+   </div>
+  </section>
+  <!-- SPECIAL OFFER SECTION - Dynamic: Animated CTA -->
+  <section class="bg-secondary text-white py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold mb-4 animate-bounce">
+     Flash Sale!
+    </h2>
+    <p class="text-xl mb-6">
+     25% off – Don't Miss the Motion!
+    </p>
+    <button class="bg-primary text-white px-8 py-3 font-semibold hover:scale-110 transition-transform">
+     Claim
+    </button>
+   </div>
+  </section>
+  <!-- FOOTER - Dynamic: Interactive hover on links -->
+  <footer class="bg-white py-8 z-10 relative">
+   <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-primary">
+    <nav class="mb-4 md:mb-0">
+     <a class="mx-2 hover:text-secondary transition" href="#">
+      Home
+     </a>
+     <a class="mx-2 hover:text-secondary transition" href="#">
+      Shop
+     </a>
+     <a class="mx-2 hover:text-secondary transition" href="#">
+      About
+     </a>
+     <a class="mx-2 hover:text-secondary transition" href="#">
+      Contact
+     </a>
+    </nav>
+    <div class="flex space-x-4 mb-4 md:mb-0">
+     <a aria-label="Facebook" href="#">
+      <img alt="Facebook" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Instagram" href="#">
+      <img alt="Instagram" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Twitter" href="#">
+      <img alt="Twitter" src="https://via.placeholder.com/24"/>
+     </a>
+    </div>
+    <p>
+     © 2025 Embrista. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

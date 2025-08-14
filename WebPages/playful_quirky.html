@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Embrista - Playful &amp; Quirky
+  </title>
+  <!-- Suggested Google Font: Comic Sans MS or Fredoka One for fun -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF6347', // Tomato red
+                        secondary: '#FFFF00', // Bright yellow
+                        tertiary: '#00FF7F', // Spring green
+                    },
+                    fontFamily: {
+                        fun: ['Fredoka One', 'cursive'],
+                    }
+                }
+            }
+        }
+  </script>
+ </head>
+ <body class="bg-white relative">
+  <!-- Watermark -->
+  <div class="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+   <p class="text-9xl opacity-5 text-primary font-bold transform -rotate-45">
+    Embrista
+   </p>
+  </div>
+  <!-- HERO SECTION - Playful & Quirky: Unconventional layout, fun colors -->
+  <header class="relative h-screen bg-gradient-to-br from-primary to-tertiary text-white z-10">
+   <div class="container mx-auto px-4 h-full flex flex-col justify-center items-end md:items-start">
+    <img alt="Embrista Logo" class="mb-4" src="https://via.placeholder.com/200x50?text=Embrista"/>
+    <h1 class="text-5xl md:text-7xl mb-4 rotate-6">
+     Embrista Tees!
+    </h1>
+    <p class="text-xl md:text-2xl mb-6 -rotate-3">
+     Fun designs that make you smile.
+    </p>
+    <button class="bg-secondary text-black px-8 py-3 rounded-full font-bold hover:rotate-12 transition-transform">
+     Play Shop
+    </button>
+   </div>
+  </header>
+  <!-- FEATURED PRODUCTS - Playful & Quirky: Quirky card shapes and hovers -->
+  <section class="container mx-auto px-4 py-16 z-10 relative">
+   <h2 class="text-4xl text-center mb-12 text-primary skew-x-12">
+    Wacky Picks
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-secondary rounded-full p-4 transform rotate-3 hover:rotate-0 transition-transform">
+     <img alt="Graphic Tee" class="w-full h-64 object-cover rounded-full" src="https://picsum.photos/300/400?random=33"/>
+     <div class="text-center mt-4">
+      <h3 class="text-xl mb-2">
+       Graphic Tee
+      </h3>
+      <p class="text-lg font-bold text-primary">
+       $20
+      </p>
+      <button class="bg-tertiary text-white px-4 py-2 rounded-full mt-2 w-full hover:bg-primary transition">
+       Buy Fun
+      </button>
+     </div>
+    </div>
+    <div class="bg-secondary rounded-full p-4 transform -rotate-6 hover:rotate-0 transition-transform">
+     <img alt="Plain Shirt" class="w-full h-64 object-cover rounded-full" src="https://picsum.photos/300/400?random=34"/>
+     <div class="text-center mt-4">
+      <h3 class="text-xl mb-2">
+       Plain Shirt
+      </h3>
+      <p class="text-lg font-bold text-primary">
+       $25
+      </p>
+      <button class="bg-tertiary text-white px-4 py-2 rounded-full mt-2 w-full hover:bg-primary transition">
+       Buy Fun
+      </button>
+     </div>
+    </div>
+    <div class="bg-secondary rounded-full p-4 transform rotate-3 hover:rotate-0 transition-transform">
+     <img alt="Polo Shirt" class="w-full h-64 object-cover rounded-full" src="https://picsum.photos/300/400?random=35"/>
+     <div class="text-center mt-4">
+      <h3 class="text-xl mb-2">
+       Polo Shirt
+      </h3>
+      <p class="text-lg font-bold text-primary">
+       $30
+      </p>
+      <button class="bg-tertiary text-white px-4 py-2 rounded-full mt-2 w-full hover:bg-primary transition">
+       Buy Fun
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- ABOUT SECTION - Playful & Quirky: Fun, whimsical text -->
+  <section class="bg-tertiary/20 py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center text-primary">
+    <h2 class="text-4xl mb-8 skew-y-6">
+     Embrista Silly Story
+    </h2>
+    <p class="text-lg max-w-2xl mx-auto">
+     Embrista makes playful t-shirts and shirts to add quirk to your day. Since 2020, we've been all about fun and laughter in fashion. Giggle with us!
+    </p>
+   </div>
+  </section>
+  <!-- SPECIAL OFFER SECTION - Playful & Quirky: Bouncy offer -->
+  <section class="bg-primary text-white py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl mb-4 animate-bounce">
+     Crazy Offer!
+    </h2>
+    <p class="text-xl mb-6">
+     Buy 2, get 1 free – wacky deal!
+    </p>
+    <button class="bg-secondary text-black px-8 py-3 rounded-full font-bold hover:scale-125 transition-transform">
+     Snag It
+    </button>
+   </div>
+  </section>
+  <!-- FOOTER - Playful & Quirky: Colorful links -->
+  <footer class="bg-white py-8 z-10 relative">
+   <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-primary">
+    <nav class="mb-4 md:mb-0">
+     <a class="mx-2 hover:text-tertiary" href="#">
+      Home
+     </a>
+     <a class="mx-2 hover:text-tertiary" href="#">
+      Shop
+     </a>
+     <a class="mx-2 hover:text-tertiary" href="#">
+      About
+     </a>
+     <a class="mx-2 hover:text-tertiary" href="#">
+      Contact
+     </a>
+    </nav>
+    <div class="flex space-x-4 mb-4 md:mb-0">
+     <a aria-label="Facebook" href="#">
+      <img alt="Facebook" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Instagram" href="#">
+      <img alt="Instagram" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Twitter" href="#">
+      <img alt="Twitter" src="https://via.placeholder.com/24"/>
+     </a>
+    </div>
+    <p>
+     © 2025 Embrista. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

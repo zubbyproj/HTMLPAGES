@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Embrista - Vintage/Retro
+  </title>
+  <!-- Suggested Google Font: Lobster -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#D2691E', // Warm chocolate
+                        secondary: '#FFDAB9', // Peach puff
+                    },
+                    fontFamily: {
+                        script: ['Lobster', 'cursive'],
+                    }
+                }
+            }
+        }
+  </script>
+ </head>
+ <body class="bg-secondary relative">
+  <!-- Watermark -->
+  <div class="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+   <p class="text-9xl opacity-5 text-primary font-bold transform -rotate-45">
+    Embrista
+   </p>
+  </div>
+  <!-- HERO SECTION - Vintage/Retro: Warm tones, nostalgic feel with grainy background -->
+  <header class="relative h-screen bg-cover bg-center filter-sepia z-10" style="background-image: url('https://picsum.photos/1920/1080?random=29');">
+   <div class="absolute inset-0 bg-primary/20">
+   </div>
+   <div class="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center text-primary">
+    <img alt="Embrista Logo" class="mb-4" src="https://via.placeholder.com/200x50?text=Embrista"/>
+    <h1 class="text-5xl md:text-7xl mb-4">
+     Embrista Vibes
+    </h1>
+    <p class="text-xl md:text-2xl mb-6">
+     Classic tees with a twist of nostalgia.
+    </p>
+    <button class="bg-primary text-secondary px-8 py-3 rounded-lg font-bold hover:bg-secondary hover:text-primary transition">
+     Shop Retro
+    </button>
+   </div>
+  </header>
+  <!-- FEATURED PRODUCTS - Vintage/Retro: Cards with retro borders -->
+  <section class="container mx-auto px-4 py-16 bg-secondary z-10 relative">
+   <h2 class="text-4xl text-center mb-12 text-primary">
+    Vintage Picks
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-white rounded-lg border-4 border-dashed border-primary overflow-hidden">
+     <img alt="Graphic Tee" class="w-full h-64 object-cover filter-sepia" src="https://picsum.photos/300/400?random=30"/>
+     <div class="p-4 text-center">
+      <h3 class="text-xl mb-2">
+       Graphic Tee
+      </h3>
+      <p class="text-lg font-bold text-primary">
+       $20
+      </p>
+      <button class="bg-primary text-secondary px-4 py-2 mt-2 w-full rounded hover:bg-secondary hover:text-primary transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg border-4 border-dashed border-primary overflow-hidden">
+     <img alt="Plain Shirt" class="w-full h-64 object-cover filter-sepia" src="https://picsum.photos/300/400?random=31"/>
+     <div class="p-4 text-center">
+      <h3 class="text-xl mb-2">
+       Plain Shirt
+      </h3>
+      <p class="text-lg font-bold text-primary">
+       $25
+      </p>
+      <button class="bg-primary text-secondary px-4 py-2 mt-2 w-full rounded hover:bg-secondary hover:text-primary transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-white rounded-lg border-4 border-dashed border-primary overflow-hidden">
+     <img alt="Polo Shirt" class="w-full h-64 object-cover filter-sepia" src="https://picsum.photos/300/400?random=32"/>
+     <div class="p-4 text-center">
+      <h3 class="text-xl mb-2">
+       Polo Shirt
+      </h3>
+      <p class="text-lg font-bold text-primary">
+       $30
+      </p>
+      <button class="bg-primary text-secondary px-4 py-2 mt-2 w-full rounded hover:bg-secondary hover:text-primary transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- ABOUT SECTION - Vintage/Retro: Warm, story-like text -->
+  <section class="bg-primary/10 py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center text-primary">
+    <h2 class="text-4xl mb-8">
+     Embrista Tale
+    </h2>
+    <p class="text-lg max-w-2xl mx-auto">
+     Embrista brings back the charm of yesteryears with retro t-shirts and shirts. Founded in 2020, we celebrate vintage style with modern comfort. Relive the good old days!
+    </p>
+   </div>
+  </section>
+  <!-- SPECIAL OFFER SECTION - Vintage/Retro: Nostalgic banner -->
+  <section class="bg-primary text-secondary py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl mb-4">
+     Old School Deal
+    </h2>
+    <p class="text-xl mb-6">
+     Buy one, get one 50% off – classic savings!
+    </p>
+    <button class="bg-secondary text-primary px-8 py-3 rounded-lg font-bold hover:bg-white transition">
+     Grab It
+    </button>
+   </div>
+  </section>
+  <!-- FOOTER - Vintage/Retro: Warm footer -->
+  <footer class="bg-secondary py-8 text-primary z-10 relative">
+   <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    <nav class="mb-4 md:mb-0">
+     <a class="mx-2 hover:underline" href="#">
+      Home
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      Shop
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      About
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      Contact
+     </a>
+    </nav>
+    <div class="flex space-x-4 mb-4 md:mb-0">
+     <a aria-label="Facebook" href="#">
+      <img alt="Facebook" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Instagram" href="#">
+      <img alt="Instagram" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Twitter" href="#">
+      <img alt="Twitter" src="https://via.placeholder.com/24"/>
+     </a>
+    </div>
+    <p>
+     © 2025 Embrista. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

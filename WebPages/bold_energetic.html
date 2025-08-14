@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Embrista - Bold &amp; Energetic
+  </title>
+  <!-- Suggested Google Font: Anton -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF4500', // Striking orange
+                        secondary: '#FFD700', // Energetic yellow
+                    },
+                    fontFamily: {
+                        display: ['Anton', 'sans-serif'],
+                    }
+                }
+            }
+        }
+  </script>
+ </head>
+ <body class="bg-black font-display text-white relative">
+  <!-- Watermark -->
+  <div class="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+   <p class="text-9xl opacity-5 text-secondary font-bold transform -rotate-45">
+    Embrista
+   </p>
+  </div>
+  <!-- HERO SECTION - Bold & Energetic: Large typography, striking colors for high energy -->
+  <header class="relative h-screen bg-cover bg-center z-10" style="background-image: url('https://picsum.photos/1920/1080?random=9');">
+   <div class="absolute inset-0 bg-gradient-to-b from-primary/70 to-black/70">
+   </div>
+   <div class="relative container mx-auto px-4 h-full flex flex-col justify-center items-start">
+    <img alt="Embrista Logo" class="mb-4" src="https://via.placeholder.com/200x50?text=Embrista"/>
+    <h1 class="text-6xl md:text-8xl uppercase mb-4">
+     Power Up Your Style with Embrista!
+    </h1>
+    <p class="text-2xl md:text-3xl mb-6">
+     Bold tees that scream energy.
+    </p>
+    <button class="bg-secondary text-black px-10 py-4 text-xl uppercase hover:bg-white transition">
+     Get Yours
+    </button>
+   </div>
+  </header>
+  <!-- FEATURED PRODUCTS - Bold & Energetic: Dynamic cards with large elements -->
+  <section class="container mx-auto px-4 py-16 bg-black z-10 relative">
+   <h2 class="text-5xl uppercase text-center mb-12 text-primary">
+    Top Picks
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-gray-900 border-4 border-primary overflow-hidden hover:border-secondary transition-colors">
+     <img alt="Graphic Tee" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=10"/>
+     <div class="p-4 text-center">
+      <h3 class="text-2xl uppercase mb-2">
+       Graphic Tee
+      </h3>
+      <p class="text-xl font-bold text-secondary">
+       $20
+      </p>
+      <button class="bg-primary text-white px-6 py-3 mt-2 w-full uppercase hover:bg-secondary hover:text-black transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-gray-900 border-4 border-primary overflow-hidden hover:border-secondary transition-colors">
+     <img alt="Plain Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=11"/>
+     <div class="p-4 text-center">
+      <h3 class="text-2xl uppercase mb-2">
+       Plain Shirt
+      </h3>
+      <p class="text-xl font-bold text-secondary">
+       $25
+      </p>
+      <button class="bg-primary text-white px-6 py-3 mt-2 w-full uppercase hover:bg-secondary hover:text-black transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-gray-900 border-4 border-primary overflow-hidden hover:border-secondary transition-colors">
+     <img alt="Polo Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?random=12"/>
+     <div class="p-4 text-center">
+      <h3 class="text-2xl uppercase mb-2">
+       Polo Shirt
+      </h3>
+      <p class="text-xl font-bold text-secondary">
+       $30
+      </p>
+      <button class="bg-primary text-white px-6 py-3 mt-2 w-full uppercase hover:bg-secondary hover:text-black transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- ABOUT SECTION - Bold & Energetic: Short, punchy text with energy -->
+  <section class="bg-primary py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-5xl uppercase mb-8 text-black">
+     Who Is Embrista
+    </h2>
+    <p class="text-xl max-w-2xl mx-auto text-black">
+     Embrista is the brand that fuels your bold lifestyle with energetic t-shirts and shirts. Since 2020, we've been pushing boundaries in fashion. Feel the power!
+    </p>
+   </div>
+  </section>
+  <!-- SPECIAL OFFER SECTION - Bold & Energetic: High-contrast banner -->
+  <section class="bg-secondary text-black py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-5xl uppercase mb-4">
+     Mega Deal!
+    </h2>
+    <p class="text-2xl mb-6">
+     30% Off Everything – Act Fast!
+    </p>
+    <button class="bg-black text-white px-10 py-4 text-xl uppercase hover:bg-primary transition">
+     Grab It
+    </button>
+   </div>
+  </section>
+  <!-- FOOTER - Bold & Energetic: Striking links -->
+  <footer class="bg-black py-8 z-10 relative">
+   <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-white">
+    <nav class="mb-4 md:mb-0">
+     <a class="mx-2 hover:text-secondary" href="#">
+      Home
+     </a>
+     <a class="mx-2 hover:text-secondary" href="#">
+      Shop
+     </a>
+     <a class="mx-2 hover:text-secondary" href="#">
+      About
+     </a>
+     <a class="mx-2 hover:text-secondary" href="#">
+      Contact
+     </a>
+    </nav>
+    <div class="flex space-x-4 mb-4 md:mb-0">
+     <a aria-label="Facebook" href="#">
+      <img alt="Facebook" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Instagram" href="#">
+      <img alt="Instagram" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Twitter" href="#">
+      <img alt="Twitter" src="https://via.placeholder.com/24"/>
+     </a>
+    </div>
+    <p>
+     © 2025 Embrista. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

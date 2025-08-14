@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Embrista - Modern &amp; Sophisticated
+  </title>
+  <!-- Suggested Google Font: Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <script>
+   tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FFFFFF', // White for minimal
+                        secondary: '#000000', // Black for contrast
+                        accent: '#A9A9A9', // Neutral gray
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+  </script>
+ </head>
+ <body class="bg-primary font-sans text-secondary relative">
+  <!-- Watermark -->
+  <div class="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
+   <p class="text-9xl opacity-5 text-accent font-bold transform -rotate-45">
+    Embrista
+   </p>
+  </div>
+  <!-- HERO SECTION - Modern & Sophisticated: Clean, monochrome with polished look -->
+  <header class="relative h-screen bg-cover bg-center z-10" style="background-image: url('https://picsum.photos/1920/1080?grayscale&amp;random=13');">
+   <div class="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
+    <img alt="Embrista Logo" class="mb-4" src="https://via.placeholder.com/200x50?text=Embrista"/>
+    <h1 class="text-5xl md:text-7xl font-bold mb-4">
+     Embrista Essentials
+    </h1>
+    <p class="text-xl md:text-2xl mb-6 max-w-lg">
+     Sophisticated designs for the contemporary wardrobe.
+    </p>
+    <button class="bg-secondary text-primary px-8 py-3 font-semibold hover:bg-accent hover:text-secondary transition">
+     Browse Now
+    </button>
+   </div>
+  </header>
+  <!-- FEATURED PRODUCTS - Modern & Sophisticated: Minimal cards with neutral tones -->
+  <section class="container mx-auto px-4 py-16 z-10 relative">
+   <h2 class="text-4xl font-bold text-center mb-12">
+    Featured Items
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="bg-primary border border-accent overflow-hidden hover:shadow-md transition-shadow">
+     <img alt="Graphic Tee" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?grayscale&amp;random=14"/>
+     <div class="p-4 text-center">
+      <h3 class="text-xl font-semibold mb-2">
+       Graphic Tee
+      </h3>
+      <p class="text-lg font-bold">
+       $20
+      </p>
+      <button class="bg-secondary text-primary px-4 py-2 mt-2 w-full hover:bg-accent transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-primary border border-accent overflow-hidden hover:shadow-md transition-shadow">
+     <img alt="Plain Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?grayscale&amp;random=15"/>
+     <div class="p-4 text-center">
+      <h3 class="text-xl font-semibold mb-2">
+       Plain Shirt
+      </h3>
+      <p class="text-lg font-bold">
+       $25
+      </p>
+      <button class="bg-secondary text-primary px-4 py-2 mt-2 w-full hover:bg-accent transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+    <div class="bg-primary border border-accent overflow-hidden hover:shadow-md transition-shadow">
+     <img alt="Polo Shirt" class="w-full h-64 object-cover" src="https://picsum.photos/300/400?grayscale&amp;random=16"/>
+     <div class="p-4 text-center">
+      <h3 class="text-xl font-semibold mb-2">
+       Polo Shirt
+      </h3>
+      <p class="text-lg font-bold">
+       $30
+      </p>
+      <button class="bg-secondary text-primary px-4 py-2 mt-2 w-full hover:bg-accent transition">
+       Buy Now
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- ABOUT SECTION - Modern & Sophisticated: Concise text in neutral palette -->
+  <section class="bg-accent/10 py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold mb-8">
+     Embrista Philosophy
+    </h2>
+    <p class="text-lg max-w-2xl mx-auto">
+     Embrista creates modern t-shirts and shirts that blend sophistication with everyday comfort. Since 2020, our focus has been on quality and minimal design. Elevate your style effortlessly.
+    </p>
+   </div>
+  </section>
+  <!-- SPECIAL OFFER SECTION - Modern & Sophisticated: Clean promotion -->
+  <section class="bg-secondary text-primary py-16 z-10 relative">
+   <div class="container mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold mb-4">
+     Limited Promotion
+    </h2>
+    <p class="text-xl mb-6">
+     10% off select items – refined savings.
+    </p>
+    <button class="bg-primary text-secondary px-8 py-3 font-semibold hover:bg-accent transition">
+     Apply Now
+    </button>
+   </div>
+  </section>
+  <!-- FOOTER - Modern & Sophisticated: Simple and clean -->
+  <footer class="bg-primary py-8 border-t border-accent z-10 relative">
+   <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-secondary">
+    <nav class="mb-4 md:mb-0">
+     <a class="mx-2 hover:underline" href="#">
+      Home
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      Shop
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      About
+     </a>
+     <a class="mx-2 hover:underline" href="#">
+      Contact
+     </a>
+    </nav>
+    <div class="flex space-x-4 mb-4 md:mb-0">
+     <a aria-label="Facebook" href="#">
+      <img alt="Facebook" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Instagram" href="#">
+      <img alt="Instagram" src="https://via.placeholder.com/24"/>
+     </a>
+     <a aria-label="Twitter" href="#">
+      <img alt="Twitter" src="https://via.placeholder.com/24"/>
+     </a>
+    </div>
+    <p>
+     © 2025 Embrista. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

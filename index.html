@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Pages Launcher</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 40px; }
+        h1 { text-align: center; }
+        .button-list { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+        button { padding: 12px 24px; font-size: 16px; border-radius: 6px; border: none; background: #0078d4; color: #fff; cursor: pointer; transition: background 0.2s; }
+        button:hover { background: #005fa3; }
+    </style>
+</head>
+<body>
+    <h1>Open Landing Pages</h1>
+    <div class="button-list">
+        <!-- BUTTONS WILL BE INSERTED HERE -->
+    </div>
+    <script>
+        const files = [
+            "10_landing_pages_tshirts.html",
+            "bold_energetic.html",
+            "bold_energetic1.html",
+            "bold-and-energetic.html",
+            "bold-energetic.html",
+            "dynamic.html",
+            "dynamic1.html",
+            "dynamic2.html",
+            "elegant.html",
+            "elegant1.html",
+            "elegant2.html",
+            "elegant3.html",
+            "futuristic.html",
+            "futuristic1.html",
+            "futuristic2.html",
+            "luxury_streetwear.html",
+            "luxury-streetwear.html",
+            "luxury-streetwear1.html",
+            "minimalistic.html",
+            "minimalistic1.html",
+            "minimalistic2.html",
+            "modern_sophisticated.html",
+            "modern_sophisticated1.html",
+            "modern-and-sophisticated.html",
+            "modern-sophisticated.html",
+            "playful_quirky.html",
+            "playful-and-quirky.html",
+            "playful-quirky.html",
+            "trendy.html",
+            "trendy1.html",
+            "trendy2.html",
+            "trendy3.html",
+            "vintage_retro.html",
+            "vintage-retro.html",
+            "vintage-retro1.html"
+        ];
+        const container = document.querySelector('.button-list');
+        files.forEach(file => {
+            const btn = document.createElement('button');
+            btn.textContent = file.replace(/\.html$/, '').replace(/[-_]/g, ' ');
+            btn.onclick = () => window.open(`WebPages/${file}`, '_blank');
+            container.appendChild(btn);
+        });
+    </script>
+</body>
+</html>
