@@ -59,7 +59,7 @@
         files.forEach(file => {
             const btn = document.createElement('button');
             btn.textContent = file.replace(/\.html$/, '').replace(/[-_]/g, ' ');
-            btn.onclick = () => window.open(`WebPages/${file}`, '_blank');
+            btn.onclick = () => window.open(`${file}`, '_blank');
             container.appendChild(btn);
         });
     </script>
